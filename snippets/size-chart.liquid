@@ -1,0 +1,38 @@
+<style>
+  .popup-size-chart {
+    height: 50vh;
+    width: 90%;
+    min-width: 90%;
+    background: white;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-20%, -50%);
+    display: none;
+  }
+</style>
+
+<div class="size-chart-custom">
+  <p data-size-chart class="size-chart-custom__text">Size Chart </p>
+</div>
+<div class="overlay">
+  <div data-popup-size class="popup-size-chart"></div>
+</div>
+
+<script>
+  let sizeChartText = document.querySelector('[data-size-chart]');
+  let popup = document.querySelector('[data-popup-size]');
+  
+  if (sizeChartText && popup) {  // Check if both elements exist
+    console.log('sizeChartText:', sizeChartText);
+  
+    sizeChartText.addEventListener('click', function () {
+      console.log('size-chart clicked');
+      popup.style.display = 'block';  // Show the popup
+    });
+  } else {
+    console.error('Either sizeChartText or popup element is missing.');
+  }
+  
+  });
+</script>
