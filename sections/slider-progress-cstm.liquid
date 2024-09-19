@@ -1,0 +1,344 @@
+<style>
+  .main-swiper--tp .swiper-button-next {
+    left: auto;
+    right: 10px;
+    left: unset;
+    top: 50%;
+    height: 32px;
+    width: 32px;
+  }
+
+  .main-swiper--tp .swiper-button-prev {
+    left: 10px;
+    right: unset;
+    top: 50%;
+    height: 32px;
+    width: 32px;
+  }
+
+  .main-swiper--tp .swiper-button-next::after,
+  .main-swiper--tp .swiper-button-prev::after {
+    display: none;
+  }
+
+  .main-swiper--tp .swiper-button-next svg,
+  .main-swiper--tp .swiper-button-prev svg {
+    height: 32px;
+    width: 32px;
+  }
+
+  .main-swiper--tp .swiper-horizontal > .swiper-pagination-bullets,
+  .main-swiper--tp .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .main-swiper--tp .swiper-pagination-custom,
+  .main-swiper--tp .swiper-pagination-fraction {
+    bottom: 50px;
+    top: unset;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .main-swiper--tp .swiper-pagination {
+    text-align: left;
+  }
+
+  .main-swiper--tp .swiper-pagination-bullet {
+    width: 95px;
+    height: 6px;
+    display: inline-block;
+    border-radius: 0;
+    background: black;
+  }
+
+  .main-swiper--tp .swiper-horizontal > .main-swiper--tp .swiper-pagination-bullets .swiper-pagination-bullet,
+  .main-swiper--tp .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0;
+    margin-right: 7px;
+  }
+
+  .main-swiper--tp .swiper-container-desktop {
+    width: 100%;
+    height: auto;
+
+    + .swiper-container-desktop {
+      margin-top: 0px;
+    }
+  }
+
+  .main-swiper--tp .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-swiper--tp .swiper-pagination-bullet {
+    border-radius: 0;
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+  }
+
+  .main-swiper--tp .swiper-pagination-bullet-active {
+    background: #ffffff78;
+
+    &::before {
+      background-color: #fff;
+      animation: slide-progress 7s cubic-bezier(0.3, 0, 0.3, 1) forwards;
+
+      .swiper-paused & {
+        animation-play-state: paused;
+      }
+    }
+  }
+
+  @keyframes slide-progress {
+    0% {
+      transform: translateX(-100%);
+    }
+
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  .desktop--tupperware {
+    display: block;
+  }
+
+  .mobile--tupperware {
+    display: none;
+  }
+
+  @media (max-width: 990px) {
+    .desktop--tupperware {
+      display: none;
+    }
+
+    .mobile--tupperware {
+      display: block;
+    }
+
+    .main-swiper--tp .swiper-button-next {
+      left: auto;
+      right: unset;
+      left: 86%;
+      right: 0;
+      top: 5%;
+    }
+
+    .main-swiper--tp .swiper-button-prev {
+      left: 3%;
+      right: unset;
+      top: 5%;
+    }
+
+    .main-swiper--tp .swiper-pagination-bullet {
+      width: 33px;
+      height: 4px;
+      display: inline-block;
+      border-radius: 0;
+    }
+
+    .swiper-slide.mobile--tupperware svg {
+      background: var(--tupperware-orange);
+    }
+
+    .main-swiper--tp .swiper-button-next svg,
+    .main-swiper--tp .swiper-button-prev svg {
+      height: 24px;
+      width: 24px;
+    }
+  }
+</style>
+
+<div class="swiper main-swiper--tp desktop--tupperware">
+  <div class="swiper-container-desktop">
+    <div class="swiper-wrapper">
+      {% for block in section.blocks %}
+        <div class="swiper-slide desktop--tupperware">
+          {% if block.settings.image_desktop != blank %}
+            <a href="{{ block.settings.link }}">
+              <img
+                class="image-slider"
+                style="width: 100%"
+                src="{{ block.settings.image_desktop | img_url: 'master' }}"
+              >
+            </a>
+          {% else %}
+            {{ 'lifestyle-2' | placeholder_svg_tag }}
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev">
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g clip-path="url(#clip0_629_10980)">
+        <path d="M37 16H7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M16 25.3333L6.66667 16L16 6.66666" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <defs>
+        <clipPath id="clip0_629_10980">
+        <rect width="32" height="32" fill="white"/>
+        </clipPath>
+        </defs>
+      </svg>
+    </div>
+    <div class="swiper-button-next">
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g clip-path="url(#clip0_224_340)">
+        <path d="M-41 16L25 16" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M16 6.66666L25.3333 16L16 25.3333" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <defs>
+        <clipPath id="clip0_224_340">
+        <rect width="32" height="32" fill="white"/>
+        </clipPath>
+        </defs>
+      </svg>
+    </div>
+
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
+
+<div class="swiper main-swiper--tp mobile--tupperware">
+  <div class="swiper-container-mobile">
+    <div class="swiper-wrapper">
+      {% for block in section.blocks %}
+        <div class="swiper-slide mobile--tupperware">
+          {% if block.settings.image_mobile != blank %}
+            <a href="{{ block.settings.link }}">
+              <img
+                class="image-slider"
+                style="width: 100%"
+                src="{{ block.settings.image_mobile | img_url: 'master' }}"
+              >
+            </a>
+          {% else %}
+            {{ 'image' | placeholder_svg_tag }}
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev">
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g clip-path="url(#clip0_629_10980)">
+        <path d="M37 16H7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M16 25.3333L6.66667 16L16 6.66666" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <defs>
+        <clipPath id="clip0_629_10980">
+        <rect width="32" height="32" fill="white"/>
+        </clipPath>
+        </defs>
+      </svg>
+    </div>
+    <div class="swiper-button-next">
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g clip-path="url(#clip0_224_340)">
+        <path d="M-41 16L25 16" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M16 6.66666L25.3333 16L16 25.3333" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <defs>
+        <clipPath id="clip0_224_340">
+        <rect width="32" height="32" fill="white"/>
+        </clipPath>
+        </defs>
+      </svg>
+    </div>
+
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
+
+<script>
+  var swiper = new Swiper('.swiper-container-desktop', {
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    autoplay: {
+      delay: 7000,
+      disableOnInteraction: false,
+    },
+    loop: true,
+    rewind: true,
+    watchSlidesProgress: true,
+  });
+
+  var swiper = new Swiper('.swiper-container-mobile', {
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    autoplay: {
+      delay: 7000,
+      disableOnInteraction: false,
+    },
+    loop: true,
+    rewind: true,
+    watchSlidesProgress: true,
+  });
+</script>
+
+{% schema %}
+{
+  "name": "TP Slider New",
+  "tag": "section",
+  "class": "tp-main-slider",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "Add Image Slide",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image_desktop",
+          "label": "Image Desktop"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_mobile",
+          "label": "Mobile image"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Image link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "TP Slider New"
+    }
+  ]
+}
+{% endschema %}

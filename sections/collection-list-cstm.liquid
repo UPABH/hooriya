@@ -1,0 +1,136 @@
+<style>
+  .collection-list__wrapper {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .collection-list__flexbox {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+  }
+
+  .collection-list__card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .collection-list__link {
+    all: unset;
+    cursor: pointer;
+  }
+
+  .collection-list-name {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+  }
+
+  .collection-list__image {
+    height: 25rem;
+    width: 25rem;
+    object-fit: cover;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .collection-list__card:hover .collection-list__image {
+    scale: 1.1;
+  }
+
+  .collection--temp .collection-list__wrapper {
+    width: 80%;
+  }
+
+  @media (max-width: 990px) {
+    .collection-list__wrapper {
+      width: 100%;
+      margin: 0 auto;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      padding: 0px 20px;
+    }
+
+    .collection--temp .collection-list__wrapper {
+      width: 100%;
+    }
+
+    .collection-list__flexbox {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+
+    .collection-list__image {
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+
+    .collection-list-name {
+      font-size: 12px;
+      text-align: center;
+      margin: 0;
+    }
+  }
+</style>
+
+<div class="collection-list__wrapper">
+  <div class="collection-list__flexbox">
+    {% for block in section.blocks %}
+      <div class="collection-list__card">
+        <a class="collection-list__link" href="{{ block.settings.link }}"
+          ><img class="collection-list__image" src="{{ block.settings.image | img_url: 'master'}}"
+        ></a>
+        <div class="collection-list__text">
+          {% if block.settings.name != blank %}
+            <a class="collection-list__link" href="{{ block.settings.link }}">
+              <p class="collection-list-name">{{ block.settings.name }}</p>
+            </a>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Collection List",
+  "tag": "section",
+  "class": "colletion-list-wt",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "collection",
+      "name": "Add Featured Collection",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Name"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Collection List"
+    }
+  ]
+}
+{% endschema %}

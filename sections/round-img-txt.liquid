@@ -1,0 +1,133 @@
+<style>
+  .rare-section {
+    background-color: #fdf7f4;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .rare-content {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+  }
+
+  .rare-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rare-image img {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+  }
+
+  .rare-text {
+    flex: 1;
+    padding: 0 40px;
+  }
+
+  .rare-text h2 {
+    font-size: 2rem;
+    color: #000;
+    font-size: 50px;
+    font-style: normal;
+    line-height: normal;
+    margin-bottom: 40px;
+    margin-bottom: 20px;
+  }
+
+  .rare-text p {
+    margin-bottom: 20px;
+    color: #6c6c6c;
+    font-size: 22px;
+    font-style: normal;
+    line-height: normal;
+  }
+
+  .story-link {
+    font-size: 1rem;
+    color: #b35b7d;
+    text-decoration: none;
+    border-bottom: 1px solid #b35b7d;
+    padding-bottom: 2px;
+    display: none;
+  }
+
+  .story-link:hover {
+    color: #803b55;
+    border-color: #803b55;
+  }
+
+  /* Responsive design for mobile */
+  @media (max-width: 768px) {
+    .rare-content {
+      flex-direction: column-reverse;
+      text-align: center;
+    }
+
+    .rare-image {
+      margin-bottom: 20px;
+      margin-left: -5rem;
+      margin-top: 30px;
+    }
+
+    .rare-text {
+      padding: 0;
+    }
+  }
+</style>
+
+<div class="rare-section">
+  <div class="rare-content">
+    <div class="rare-image">
+      <img
+        src="https://cdn.shopify.com/s/files/1/0884/6570/3233/files/HP-split-tout-about-1522_540x_2cc248a9-1b51-444a-b897-57fbe26283a9.webp?v=1721165397"
+        alt="Woman with puckered lips"
+      >
+    </div>
+    <div class="rare-text">
+      <h2>What makes us Rare</h2>
+      <p>
+        Together we’re building a safe, welcoming space in beauty and beyond. This is makeup made to feel good in,
+        without hiding what makes you unique. And it’s all vegan and cruelty free.
+      </p>
+      <a href="#" class="story-link">OUR STORY</a>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Round Image Text",
+  "tag": "section",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "icon",
+      "name": "Add Image icon",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image_desktop",
+          "label": "Image Desktop"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Image link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Round Image Text"
+    }
+  ]
+}
+{% endschema %}

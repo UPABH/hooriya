@@ -1,0 +1,104 @@
+<style>
+  .icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+  }
+
+  .icon-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    text-align: center;
+  }
+
+  .icon-item img {
+    width: 100px;
+    height: auto;
+  }
+
+  .icon-item p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #333;
+  }
+
+  @media (max-width: 768px) {
+    .icon-container {
+      justify-content: space-between;
+    }
+
+    .icon-item {
+      width: calc(33.33% - 20px);
+      margin: 10px;
+    }
+
+    .icon-item img {
+      width: 80px;
+    }
+
+    .icon-item p {
+      font-size: 0.9rem;
+    }
+  }
+</style>
+
+<div class="icon-container">
+  <div class="icon-item">
+    <img src="https://cdn.shopify.com/s/files/1/0884/6570/3233/files/Asset_5_2ae2699e-8126-42e5-8fd7-6025c4fc828b.png?v=1721164380" alt="Cruelty Free">
+    <p>Cruelty Free</p>
+  </div>
+  <div class="icon-item">
+    <img src="https://cdn.shopify.com/s/files/1/0884/6570/3233/files/Asset_6_de821146-d6c1-41cf-b5ab-5792bb696b0d.png?v=1721164380">
+    <p>Paraben and Sulphate Free</p>
+  </div>
+  <div class="icon-item">
+    <img src="https://cdn.shopify.com/s/files/1/0884/6570/3233/files/Asset_7.png?v=1721164380" alt="Non Toxic">
+    <p>Non Toxic</p>
+  </div>
+  <div class="icon-item">
+    <img src="https://cdn.shopify.com/s/files/1/0884/6570/3233/files/Asset_9_08c391a9-f66c-40ee-a19e-60a56bb5bd65.png?v=1721164380" alt="100% Vegan">
+    <p>100% Vegan</p>
+  </div>
+  <div class="icon-item">
+    <img src="https://cdn.shopify.com/s/files/1/0884/6570/3233/files/Asset_10_de61ac22-b499-45e4-9767-4d9759d9761b.png?v=1721164380" alt="Daily Use">
+    <p>Daily Use</p>
+  </div>
+  <div class="icon-item">
+    <img src="https://cdn.shopify.com/s/files/1/0884/6570/3233/files/Asset_11_bffa64d3-9eae-49de-89d9-d3be59035488.png?v=1721164380" alt="Clean & Kind">
+    <p>Clean & Kind</p>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Icons in a row",
+  "tag": "section",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "icon",
+      "name": "Add Image icon",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image_desktop",
+          "label": "Image Desktop"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Image link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Icons in a row"
+    }
+  ]
+}
+{% endschema %}
