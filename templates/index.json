@@ -187,7 +187,7 @@
         "icon_heading": "las la-gem",
         "top_subheading": "",
         "tophead_mb": 30,
-        "date": "2024/10/20",
+        "date": "2024/9/20",
         "cdt_des": "1",
         "cdt_size": "extra_large",
         "box_bdr": 0,
@@ -544,7 +544,7 @@
         "slide_apjANb": {
           "type": "slide",
           "settings": {
-            "video_element": "shopify://files/videos/Water, Coconut Oil, Glycerin, Shea Butter, Glyceryl Stearate SE, Cocoa Seed Butter, Cetearyl Alcohol, Disodium EDTA, Cyclopentasiloxane, Dimethiconol, Laureth-4, Laureth-23, Vitamin E, Mica Powder.mp4",
+            "video_element": "shopify://files/videos/1.mp4",
             "heading_slide": "",
             "paragraph_slide": ""
           }
@@ -552,7 +552,7 @@
         "slide_4QkJat": {
           "type": "slide",
           "settings": {
-            "video_element": "shopify://files/videos/Untitled design (3).mp4",
+            "video_element": "shopify://files/videos/2.mp4",
             "heading_slide": "",
             "paragraph_slide": ""
           }
@@ -560,7 +560,7 @@
         "slide_gwdDyB": {
           "type": "slide",
           "settings": {
-            "video_element": "shopify://files/videos/Ingredeints (1080 x 1920 px).mp4",
+            "video_element": "shopify://files/videos/3.mp4",
             "heading_slide": "",
             "paragraph_slide": ""
           }
@@ -568,7 +568,7 @@
         "slide_JhytjV": {
           "type": "slide",
           "settings": {
-            "video_element": "shopify://files/videos/Ingredeints (1080 x 1920 px) (1080 x 1920 px) (1080 x 1920 px) (1080 x 1920 px).mp4",
+            "video_element": "shopify://files/videos/4.mp4",
             "heading_slide": "",
             "paragraph_slide": ""
           }
@@ -576,7 +576,7 @@
         "slide_GMjY9b": {
           "type": "slide",
           "settings": {
-            "video_element": "shopify://files/videos/Ingredeints (1080 x 1920 px) (1080 x 1920 px) (1080 x 1920 px) (1080 x 1920 px) (1080 x 1920 px).mp4",
+            "video_element": "shopify://files/videos/5.mp4",
             "heading_slide": "",
             "paragraph_slide": ""
           }
@@ -584,7 +584,47 @@
         "slide_dKQCea": {
           "type": "slide",
           "settings": {
-            "video_element": "shopify://files/videos/Ingredeints (1080 x 1920 px) (1080 x 1920 px) (1080 x 1920 px) (1080 x 1920 px)_b7135760-90fc-4ba2-9ed7-3c39e6f3b01b.mp4",
+            "video_element": "shopify://files/videos/6.mp4",
+            "heading_slide": "",
+            "paragraph_slide": ""
+          }
+        },
+        "slide_wNdc9h": {
+          "type": "slide",
+          "settings": {
+            "video_element": "shopify://files/videos/10.mp4",
+            "heading_slide": "",
+            "paragraph_slide": ""
+          }
+        },
+        "slide_3tP86V": {
+          "type": "slide",
+          "settings": {
+            "video_element": "shopify://files/videos/8.mp4",
+            "heading_slide": "",
+            "paragraph_slide": ""
+          }
+        },
+        "slide_qTDNiU": {
+          "type": "slide",
+          "settings": {
+            "video_element": "shopify://files/videos/9.mp4",
+            "heading_slide": "",
+            "paragraph_slide": ""
+          }
+        },
+        "slide_LdzDNx": {
+          "type": "slide",
+          "settings": {
+            "video_element": "shopify://files/videos/11.mp4",
+            "heading_slide": "",
+            "paragraph_slide": ""
+          }
+        },
+        "slide_3dY9aJ": {
+          "type": "slide",
+          "settings": {
+            "video_element": "shopify://files/videos/12.mp4",
             "heading_slide": "",
             "paragraph_slide": ""
           }
@@ -596,7 +636,12 @@
         "slide_gwdDyB",
         "slide_JhytjV",
         "slide_GMjY9b",
-        "slide_dKQCea"
+        "slide_dKQCea",
+        "slide_wNdc9h",
+        "slide_3tP86V",
+        "slide_qTDNiU",
+        "slide_LdzDNx",
+        "slide_3dY9aJ"
       ],
       "settings": {
         "subheading": "",
