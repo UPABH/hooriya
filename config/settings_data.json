@@ -201,8 +201,8 @@
           "footer-10": {
             "type": "bl_col",
             "settings": {
-              "col_heading": "QUICK LINKS",
-              "menu": "",
+              "col_heading": "Policies",
+              "menu": "policies",
               "menu_style": "1",
               "col_border": "none",
               "col_dk": "3",
