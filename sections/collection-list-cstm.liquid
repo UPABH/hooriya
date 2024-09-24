@@ -13,9 +13,9 @@
   }
 
   .collection-list__card {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
   }
 
   .collection-list__link {
@@ -30,12 +30,6 @@
   }
 
   .collection-list__image {
-    min-height: 16%;
-    min-width: 16%;
-    max-height: 16%;
-    max-width: 16%;
-    height: 16%;
-    width: 16%;
     object-fit: cover;
     border-radius: 50%;
     overflow: hidden;
