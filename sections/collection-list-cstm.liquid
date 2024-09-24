@@ -38,10 +38,13 @@
   .collection-list__image {
     object-fit: cover;
     border-radius: 50%;
+    aspect-ratio: 1 / 1; /* Ensures a 1:1 square aspect ratio */
+    width: 100%; /* Adjusts width according to the parent */
+    height: auto; /* Maintains the aspect ratio by auto-adjusting the height */
+    max-width: 300px; /* Optional: Cap the max size if needed */
     overflow: hidden;
-    height: 300px;
-    width: 300px;
   }
+
 
   .collection-list__card:hover .collection-list__image {
     scale: 1.1;
