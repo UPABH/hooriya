@@ -86,17 +86,14 @@
   <div class="rare-content">
     <div class="rare-image">
       <img
-        src="https://cdn.shopify.com/s/files/1/0884/6570/3233/files/HP-split-tout-about-1522_540x_2cc248a9-1b51-444a-b897-57fbe26283a9.webp?v=1721165397"
-        alt="Woman with puckered lips"
-      >
+        src="{{ section.settings.image_desktop | img_url: 'master' }}">
     </div>
     <div class="rare-text">
-      <h2>What makes us Rare</h2>
+      <h2>{{ section.settings.heading }}</h2>
       <p>
-        Together we’re building a safe, welcoming space in beauty and beyond. This is makeup made to feel good in,
-        without hiding what makes you unique. And it’s all vegan and cruelty free.
+        {{ section.settings.para }}
       </p>
-      <a href="#" class="story-link">OUR STORY</a>
+      <a href="{{ section.settings.link }}" class="story-link">OUR STORY</a>
     </div>
   </div>
 </div>
@@ -105,23 +102,28 @@
 {
   "name": "Round Image Text",
   "tag": "section",
-  "settings": [],
-  "blocks": [
+  "settings": [
     {
-      "type": "icon",
-      "name": "Add Image icon",
-      "settings": [
-        {
-          "type": "image_picker",
-          "id": "image_desktop",
-          "label": "Image Desktop"
-        },
-        {
-          "type": "url",
-          "id": "link",
-          "label": "Image link"
-        }
-      ]
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default":"What makes us Rare"
+    },
+    {
+      "type": "text",
+      "id": "para",
+      "label": "Paragraph",
+      "default":"Together we’re building a safe, welcoming space in beauty and beyond. This is makeup made to feel good in, without hiding what makes you unique. And it’s all vegan and cruelty free."
+    },
+   {
+      "type": "image_picker",
+      "id": "image_desktop",
+      "label": "Image Desktop"
+    },
+    {
+      "type": "url",
+      "id": "link",
+      "label": "Image link"
     }
   ],
   "presets": [
