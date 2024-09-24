@@ -1,0 +1,59 @@
+<style>
+  .image-container{
+   display:flex;
+   flex-direction:row;
+   width:100%;
+   position: relative;
+   padding:10px;
+   }
+   img{
+      width: 50%;
+      padding:20px;
+  }
+  .heading{
+   display:flex;
+   justify-content:center;
+  }
+  @media(max-width:768px){
+      .image-container{
+          width:100%;
+          display:flex;
+          flex-direction:column;
+      }
+      img{
+          width: 100%;
+      }
+  }
+  </style>
+  <div class="heading">    
+   <h1>Shop By Category</h1>
+  </div>
+  <div class="image-container">
+    <img class="Images" src="{{ section.settings.Image | img_url: 'master' }}" alt="">
+    <img class="Images" src="{{ section.settings.Image2 | img_url: 'master' }}" alt="">
+  </div>
+  
+  
+  {% schema %}
+  {
+    "name": "Banner-Images",
+    "settings": [
+      {
+      "type": "image_picker",
+      "id": "Image",
+      "label": "Images"
+      },
+      {
+      "type":"image_picker",
+      "id": "Image2",
+       "label": "Images"
+      }
+    ],
+   
+    "presets": [
+      {
+        "name": "Banner-Images"
+      }
+    ]
+  }
+  {% endschema %}
