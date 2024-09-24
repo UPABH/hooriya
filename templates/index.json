@@ -609,6 +609,10 @@
     "round_img_txt_W4EnCx": {
       "type": "round-img-txt",
       "settings": {
+        "heading": "What makes us Rare",
+        "para": "Together we’re building a safe, welcoming space in beauty and beyond. This is makeup made to feel good in, without hiding what makes you unique. And it’s all vegan and cruelty free.",
+        "image_desktop": "shopify://shop_images/HOORIA_MOBILE_BANNER-05.jpg",
+        "link": ""
       }
     },
     "video_slider_progress_MHwqim": {
