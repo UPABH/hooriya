@@ -855,7 +855,7 @@
         "shipping_9aELRa": {
           "type": "shipping",
           "settings": {
-            "icon_themes": "truck",
+            "icon_themes": "repeat",
             "image_icon": "shopify://shop_images/Easy_Return.png",
             "icon": "",
             "title": "EASY RETURN",
