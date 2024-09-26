@@ -823,11 +823,11 @@
         "164620932047c7965f-0": {
           "type": "shipping",
           "settings": {
-            "icon_themes": "car",
+            "icon_themes": "truck",
             "image_icon": "shopify://shop_images/1_33ddee5a-aa40-419f-9491-38fbb88954c2.png",
             "icon": "tractor",
             "title": "SAFE SHIPPING",
-            "text": "<p>Whether it's a sofa or a sheet set, delivery's</p><p>on the house.</p>",
+            "text": "<p>Whether it's a sofa or a sheet set, delivery's on the house.</p>",
             "html": ""
           }
         },
@@ -837,7 +837,7 @@
             "icon_themes": "diamond",
             "icon": "life-ring",
             "title": "PREMIUM DESIGN",
-            "text": "<p>Shop zillions of finds, with new arrivals</p><p>added daily.</p>",
+            "text": "<p>Shop zillions of finds, with new arrivals added daily.</p>",
             "html": ""
           }
         },
@@ -848,7 +848,7 @@
             "image_icon": "shopify://shop_images/ezgif.com-gif-maker-_42.png",
             "icon": "undo-alt",
             "title": "BEAUTIFUL GIFT WRAPPING",
-            "text": "<p>Use the Credit Card to save on your first</p><p>order over $250.</p>",
+            "text": "<p>Use the Credit Card to save on your first order over $250.</p>",
             "html": ""
           }
         },
