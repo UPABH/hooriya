@@ -851,12 +851,24 @@
             "text": "<p>Use the Credit Card to save on your first</p><p>order over $250.</p>",
             "html": ""
           }
+        },
+        "shipping_9aELRa": {
+          "type": "shipping",
+          "settings": {
+            "icon_themes": "truck",
+            "image_icon": "shopify://shop_images/Easy_Return.png",
+            "icon": "",
+            "title": "EASY RETURN",
+            "text": "<p>Hassle-free returns with a simple, <br/>stress-free</p>",
+            "html": ""
+          }
         }
       },
       "block_order": [
         "164620932047c7965f-0",
         "164620932047c7965f-1",
-        "164620932047c7965f-2"
+        "164620932047c7965f-2",
+        "shipping_9aELRa"
       ],
       "settings": {
         "design_heading": "2",
