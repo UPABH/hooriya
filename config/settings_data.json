@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "purchase_code": "38a7b069-23bd-48d6-a4c3-6500aa6844f1",
@@ -498,7 +498,7 @@
             "type": "drop",
             "settings": {
               "title": "Lookbook",
-              "url": "https://demo-kalles-4-1.myshopify.com/pages/home-lookbook/?preview_theme_id=128644972750",
+              "url": "",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -920,19 +920,16 @@
           "mb_nav-4": {
             "type": "wis",
             "disabled": true,
-            "settings": {
-            }
+            "settings": {}
           },
           "mb_nav-5": {
             "type": "sea",
             "disabled": true,
-            "settings": {
-            }
+            "settings": {}
           },
           "mb_nav-6": {
             "type": "acc",
-            "settings": {
-            }
+            "settings": {}
           },
           "mb_nav-7": {
             "type": "help",
@@ -944,13 +941,11 @@
           },
           "mb_nav-8": {
             "type": "lang",
-            "settings": {
-            }
+            "settings": {}
           },
           "mb_nav-9": {
             "type": "cur",
-            "settings": {
-            }
+            "settings": {}
           }
         },
         "block_order": [
@@ -969,8 +964,7 @@
           "mb_nav-8",
           "mb_nav-9"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "mb_cat": {
         "type": "mb_cat",
@@ -1104,26 +1098,22 @@
           "2d16f160-ac4b-4c6c-9140-bd49e2b2fd0e",
           "0f345d5e-61b0-41ee-98a6-cf7a5f93c8d7"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "mini_cart": {
         "type": "mini_cart",
         "blocks": {
           "mini_cart-0": {
             "type": "price",
-            "settings": {
-            }
+            "settings": {}
           },
           "mini_cart-1": {
             "type": "tax",
-            "settings": {
-            }
+            "settings": {}
           },
           "mini_cart-2": {
             "type": "agree",
-            "settings": {
-            }
+            "settings": {}
           },
           "mini_cart-3": {
             "type": "btnc",
@@ -1211,8 +1201,7 @@
       },
       "search-hidden": {
         "type": "search-hidden",
-        "settings": {
-        }
+        "settings": {}
       },
       "login-sidebar": {
         "type": "login-sidebar",
@@ -1292,15 +1281,11 @@
               "btn_txt2": "3",
               "button_color_payment": "primary",
               "show_gift_card_recipient": true,
-              "product_list": [
-
-              ],
+              "product_list": [],
               "show_product_current": true,
               "qty_val": "0",
               "advance_label": "Choose style",
-              "advance_pr_list": [
-
-              ]
+              "advance_pr_list": []
             }
           },
           "0fffb132-d912-4829-b391-05d64f8ca70e": {
@@ -1452,8 +1437,7 @@
         "blocks": {
           "main-wishlist-0": {
             "type": "layout",
-            "settings": {
-            }
+            "settings": {}
           }
         },
         "block_order": [
@@ -1510,8 +1494,7 @@
         "block_order": [
           "9fee2fc2-8702-4697-b946-246a60fd09c8"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "popups": {
         "type": "popups",
@@ -1552,8 +1535,7 @@
         "block_order": [
           "a1ec8038-df9c-4ae5-8486-a76405feec5f"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "main-qs": {
         "type": "main-qs",
@@ -1623,12 +1605,9 @@
       },
       "extras": {
         "type": "extras",
-        "settings": {
-        }
+        "settings": {}
       }
     },
-    "content_for_index": [
-
-    ]
+    "content_for_index": []
   }
 }
