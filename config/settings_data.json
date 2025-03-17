@@ -945,6 +945,7 @@
           },
           "mb_nav-9": {
             "type": "cur",
+            "disabled": true,
             "settings": {}
           }
         },
@@ -1512,9 +1513,9 @@
               "btn_cl": "#ffffff",
               "btn_bg_cl": "#000000",
               "btn_hover_cl": "#ffffff",
-              "btn_hover_bg_cl": "#56cfe1",
-              "image": "shopify://shop_images/Rectangle_3.jpg",
-              "news_layout": "2",
+              "btn_hover_bg_cl": "#e15656",
+              "image": "shopify://shop_images/HOORIA_MOBILE_BANNER-07.jpg",
+              "news_layout": "3",
               "mb": true,
               "index": true,
               "product": false,
