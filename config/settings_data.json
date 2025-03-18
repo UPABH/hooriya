@@ -796,10 +796,33 @@
             "settings": {
               "id": 1
             }
+          },
+          "banner_zKNH33": {
+            "type": "banner",
+            "settings": {
+              "image_ratio": "ratioadapt",
+              "image_size": "cover",
+              "image_position": "8",
+              "height_dk": 400,
+              "image": "shopify://shop_images/New_Arrival_1.jpg",
+              "img_effect": "none",
+              "b_effect": "none",
+              "b_link": "",
+              "open_link": "_self",
+              "html": "<h3 class=\"fs__30 mg__0 lh__1 cw mb__10\">lighting collections</h3><h4 class=\"fs__16 mg__0 cw\">Explorer</h4>",
+              "content_align": "center",
+              "cv_pos": 50,
+              "ch_pos": 50,
+              "cl_txt": "#fff",
+              "cl_overlay": "#000",
+              "cl_opacity": 5,
+              "col": "4"
+            }
           }
         },
         "block_order": [
-          "583a30c7-369d-4a64-a51d-ca53c1685206"
+          "583a30c7-369d-4a64-a51d-ca53c1685206",
+          "banner_zKNH33"
         ],
         "settings": {
           "bg": ""
