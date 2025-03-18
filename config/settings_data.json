@@ -800,10 +800,10 @@
           "banner_zKNH33": {
             "type": "banner",
             "settings": {
-              "image_ratio": "ratioadapt",
+              "image_ratio": "ratio_cuspx",
               "image_size": "cover",
               "image_position": "8",
-              "height_dk": 400,
+              "height_dk": 402,
               "image": "shopify://shop_images/New_Arrival_1.jpg",
               "img_effect": "none",
               "b_effect": "none",
