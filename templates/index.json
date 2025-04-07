@@ -1,12 +1,3 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "sections": {
     "1646028739ae283905": {
@@ -15,8 +6,8 @@
         "164602873867eb3815-0": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify://shop_images/banner-01.jpg",
-            "image_mb": "shopify://shop_images/HOORIA_MOBILE_BANNER-05.jpg",
+            "image": "shopify:\/\/shop_images\/banner-01.jpg",
+            "image_mb": "shopify:\/\/shop_images\/HOORIA_MOBILE_BANNER-05.jpg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "",
@@ -55,8 +46,8 @@
         "aca13d02-fdca-4dd7-b455-cc71ffabb08a": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify://shop_images/HOORIA_banner_3-03.jpg",
-            "image_mb": "shopify://shop_images/HOORIA_MOBILE_BANNER-07.jpg",
+            "image": "shopify:\/\/shop_images\/HOORIA_banner_3-03.jpg",
+            "image_mb": "shopify:\/\/shop_images\/HOORIA_MOBILE_BANNER-07.jpg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "",
@@ -95,8 +86,8 @@
         "d3d45343-6674-4064-9069-ffae15f9f2c6": {
           "type": "image_parent",
           "settings": {
-            "image": "shopify://shop_images/HOORIA_banner_4-04.jpg",
-            "image_mb": "shopify://shop_images/HOORIA_MOBILE_BANNER-08.jpg",
+            "image": "shopify:\/\/shop_images\/HOORIA_banner_4-04.jpg",
+            "image_mb": "shopify:\/\/shop_images\/HOORIA_MOBILE_BANNER-08.jpg",
             "image_position": "8",
             "cl_img": "",
             "link_img1": "",
@@ -184,49 +175,49 @@
         "collection_a9aHik": {
           "type": "collection",
           "settings": {
-            "image": "shopify://shop_images/New_Arrival_1.jpg",
+            "image": "shopify:\/\/shop_images\/New_Arrival_1.jpg",
             "name": "Best Sellers",
-            "link": "shopify://collections/best-sellers"
+            "link": "shopify:\/\/collections\/best-sellers"
           }
         },
         "collection_fDAjVe": {
           "type": "collection",
           "settings": {
-            "image": "shopify://shop_images/WhatsApp_Image_2024-09-24_at_12.46.36_1a5f623e.jpg",
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-09-24_at_12.46.36_1a5f623e.jpg",
             "name": "New Arrivals",
-            "link": "shopify://collections/new-arrivals"
+            "link": "shopify:\/\/collections\/new-arrivals"
           }
         },
         "collection_c7PPjf": {
           "type": "collection",
           "settings": {
-            "image": "shopify://shop_images/WhatsApp_Image_2024-09-24_at_12.44.42_cb38a647.jpg",
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-09-24_at_12.44.42_cb38a647.jpg",
             "name": "Adda Work",
-            "link": "shopify://collections/adda-work"
+            "link": "shopify:\/\/collections\/adda-work"
           }
         },
         "collection_ayphWw": {
           "type": "collection",
           "settings": {
-            "image": "shopify://shop_images/WhatsApp_Image_2024-09-24_at_12.44.42_8e219112.jpg",
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-09-24_at_12.44.42_8e219112.jpg",
             "name": "Beading",
-            "link": "shopify://collections/beading"
+            "link": "shopify:\/\/collections\/beading"
           }
         },
         "collection_6VdMfQ": {
           "type": "collection",
           "settings": {
-            "image": "shopify://shop_images/WhatsApp_Image_2024-09-24_at_12.44.42_b038d811.jpg",
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-09-24_at_12.44.42_b038d811.jpg",
             "name": "Embroidered",
-            "link": "shopify://collections/embroidered"
+            "link": "shopify:\/\/collections\/embroidered"
           }
         },
         "collection_LW6frY": {
           "type": "collection",
           "settings": {
-            "image": "shopify://shop_images/WhatsApp_Image_2024-09-24_at_13.02.58_e9c14f29.jpg",
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-09-24_at_13.02.58_e9c14f29.jpg",
             "name": "Stone Work",
-            "link": "shopify://collections/stone-work"
+            "link": "shopify:\/\/collections\/stone-work"
           }
         }
       },
@@ -238,8 +229,7 @@
         "collection_6VdMfQ",
         "collection_LW6frY"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "16558840633935abe3": {
       "type": "featured-collection",
@@ -320,7 +310,7 @@
         "slide_apjANb": {
           "type": "slide",
           "settings": {
-            "video_element": "shopify://files/videos/1.mp4",
+            "video_element": "shopify:\/\/files\/videos\/1.mp4",
             "heading_slide": "",
             "paragraph_slide": ""
           }
@@ -328,7 +318,7 @@
         "slide_4QkJat": {
           "type": "slide",
           "settings": {
-            "video_element": "shopify://files/videos/2.mp4",
+            "video_element": "shopify:\/\/files\/videos\/2.mp4",
             "heading_slide": "",
             "paragraph_slide": ""
           }
@@ -336,7 +326,7 @@
         "slide_gwdDyB": {
           "type": "slide",
           "settings": {
-            "video_element": "shopify://files/videos/3.mp4",
+            "video_element": "shopify:\/\/files\/videos\/3.mp4",
             "heading_slide": "",
             "paragraph_slide": ""
           }
@@ -344,7 +334,7 @@
         "slide_JhytjV": {
           "type": "slide",
           "settings": {
-            "video_element": "shopify://files/videos/4.mp4",
+            "video_element": "shopify:\/\/files\/videos\/4.mp4",
             "heading_slide": "",
             "paragraph_slide": ""
           }
@@ -352,7 +342,7 @@
         "slide_GMjY9b": {
           "type": "slide",
           "settings": {
-            "video_element": "shopify://files/videos/5.mp4",
+            "video_element": "shopify:\/\/files\/videos\/5.mp4",
             "heading_slide": "",
             "paragraph_slide": ""
           }
@@ -360,7 +350,7 @@
         "slide_dKQCea": {
           "type": "slide",
           "settings": {
-            "video_element": "shopify://files/videos/6.mp4",
+            "video_element": "shopify:\/\/files\/videos\/6.mp4",
             "heading_slide": "",
             "paragraph_slide": ""
           }
@@ -368,7 +358,7 @@
         "slide_wNdc9h": {
           "type": "slide",
           "settings": {
-            "video_element": "shopify://files/videos/10.mp4",
+            "video_element": "shopify:\/\/files\/videos\/10.mp4",
             "heading_slide": "",
             "paragraph_slide": ""
           }
@@ -376,7 +366,7 @@
         "slide_3tP86V": {
           "type": "slide",
           "settings": {
-            "video_element": "shopify://files/videos/8.mp4",
+            "video_element": "shopify:\/\/files\/videos\/8.mp4",
             "heading_slide": "",
             "paragraph_slide": ""
           }
@@ -384,7 +374,7 @@
         "slide_qTDNiU": {
           "type": "slide",
           "settings": {
-            "video_element": "shopify://files/videos/9.mp4",
+            "video_element": "shopify:\/\/files\/videos\/9.mp4",
             "heading_slide": "",
             "paragraph_slide": ""
           }
@@ -392,7 +382,7 @@
         "slide_LdzDNx": {
           "type": "slide",
           "settings": {
-            "video_element": "shopify://files/videos/11.mp4",
+            "video_element": "shopify:\/\/files\/videos\/11.mp4",
             "heading_slide": "",
             "paragraph_slide": ""
           }
@@ -400,7 +390,7 @@
         "slide_3dY9aJ": {
           "type": "slide",
           "settings": {
-            "video_element": "shopify://files/videos/12.mp4",
+            "video_element": "shopify:\/\/files\/videos\/12.mp4",
             "heading_slide": "",
             "paragraph_slide": ""
           }
@@ -435,9 +425,9 @@
         "heading_align": "t4s-text-center",
         "top_heading": "FLAT 20% OFF",
         "icon_heading": "las la-gem",
-        "top_subheading": "Limited Time Offer",
+        "top_subheading": "OFFER ENDS IN",
         "tophead_mb": 30,
-        "date": "2024/10/20",
+        "date": "2025\/04\/10",
         "cdt_des": "1",
         "cdt_size": "extra_large",
         "box_bdr": 10,
@@ -725,7 +715,7 @@
       "settings": {
         "heading": "What makes us Rare",
         "para": "Together we’re building a safe, welcoming space in beauty and beyond. This is makeup made to feel good in, without hiding what makes you unique. And it’s all vegan and cruelty free.",
-        "image_desktop": "shopify://shop_images/HOORIA_MOBILE_BANNER-05.jpg",
+        "image_desktop": "shopify:\/\/shop_images\/HOORIA_MOBILE_BANNER-05.jpg",
         "link": ""
       }
     },
@@ -741,7 +731,7 @@
             "txt_align": "start",
             "sub_heading": "",
             "heading": "LOOKBOOK COLLECTIONS",
-            "text": "<p>Cepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan</p>",
+            "text": "<p>Cepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan<\/p>",
             "subhd_color": "#222222",
             "hd_color": "#222222",
             "des_color": "#878787",
@@ -759,9 +749,9 @@
         "1661409294b46875fa-0": {
           "type": "bl_image",
           "settings": {
-            "image1": "shopify://shop_images/image-2.png",
-            "image2": "shopify://shop_images/image-3.png",
-            "image3": "shopify://shop_images/image-1.png",
+            "image1": "shopify:\/\/shop_images\/image-2.png",
+            "image2": "shopify:\/\/shop_images\/image-3.png",
+            "image3": "shopify:\/\/shop_images\/image-1.png",
             "col_dk": "6",
             "col_tb": "6",
             "layout_des": "grid",
@@ -824,10 +814,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "truck",
-            "image_icon": "shopify://shop_images/1_33ddee5a-aa40-419f-9491-38fbb88954c2.png",
+            "image_icon": "shopify:\/\/shop_images\/1_33ddee5a-aa40-419f-9491-38fbb88954c2.png",
             "icon": "tractor",
             "title": "SAFE SHIPPING",
-            "text": "<p>Whether it's a sofa or a sheet set, delivery's on the house.</p>",
+            "text": "<p>Whether it's a sofa or a sheet set, delivery's on the house.<\/p>",
             "html": ""
           }
         },
@@ -837,7 +827,7 @@
             "icon_themes": "diamond",
             "icon": "life-ring",
             "title": "PREMIUM DESIGN",
-            "text": "<p>Shop zillions of finds, with new arrivals added daily.</p>",
+            "text": "<p>Shop zillions of finds, with new arrivals added daily.<\/p>",
             "html": ""
           }
         },
@@ -845,10 +835,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "gift",
-            "image_icon": "shopify://shop_images/ezgif.com-gif-maker-_42.png",
+            "image_icon": "shopify:\/\/shop_images\/ezgif.com-gif-maker-_42.png",
             "icon": "undo-alt",
             "title": "BEAUTIFUL GIFT WRAPPING",
-            "text": "<p>Use the Credit Card to save on your first order over $250.</p>",
+            "text": "<p>Use the Credit Card to save on your first order over $250.<\/p>",
             "html": ""
           }
         },
@@ -856,10 +846,10 @@
           "type": "shipping",
           "settings": {
             "icon_themes": "repeat",
-            "image_icon": "shopify://shop_images/Easy_Return.png",
+            "image_icon": "shopify:\/\/shop_images\/Easy_Return.png",
             "icon": "",
             "title": "EASY RETURN",
-            "text": "<p>Hassle-free returns with a simple, <br/>stress-free</p>",
+            "text": "<p>Hassle-free returns with a simple, <br\/>stress-free<\/p>",
             "html": ""
           }
         }
@@ -979,7 +969,7 @@
         "layout": "t4s-container-fluid",
         "cl_bg": "rgba(0,0,0,0)",
         "cl_bg_gradient": "",
-        "image_bg": "shopify://shop_images/1_15c3f4a3-4acc-4e8a-bb44-550263d87851.jpg",
+        "image_bg": "shopify:\/\/shop_images\/1_15c3f4a3-4acc-4e8a-bb44-550263d87851.jpg",
         "parallax": false,
         "mg": ",,50px,",
         "pd": "65px,65px,70px,70px",
@@ -994,8 +984,7 @@
     "icons_cstm_lavar_FkUgba": {
       "type": "icons-cstm-lavar",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [
