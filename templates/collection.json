@@ -3,92 +3,52 @@
     "top": {
       "type": "top-collections",
       "blocks": {
-        "69bbe0dd-0a50-42e8-986b-0d5e6c5cfa67": {
+        "cat_YR4CTM": {
           "type": "cat",
           "settings": {
-            "collection": "default-3",
+            "collection": "new-arrivals",
             "icon": ""
           }
         },
-        "863873b6-012e-4a34-90e3-eead750fa3ce": {
+        "cat_Air7EY": {
           "type": "cat",
           "settings": {
-            "collection": "bag",
+            "collection": "best-sellers",
             "icon": ""
           }
         },
-        "fc07bff9-6d08-423c-8802-9a03c34f3a31": {
+        "cat_EVcfB7": {
           "type": "cat",
           "settings": {
-            "collection": "decor",
+            "collection": "season-1",
             "icon": ""
           }
         },
-        "a286cc0b-0c90-4b1a-862c-a1136f283aac": {
+        "cat_3ahGCJ": {
           "type": "cat",
           "settings": {
-            "collection": "default-2",
+            "collection": "season-2",
             "icon": ""
           }
         },
-        "23c84729-8fcb-488c-9541-00e283af6afe": {
+        "cat_nVFYn9": {
           "type": "cat",
           "settings": {
-            "collection": "dress",
-            "icon": ""
-          }
-        },
-        "5f1d751a-fdac-43d4-ad9d-55da0c297244": {
-          "type": "cat",
-          "settings": {
-            "collection": "hats",
-            "icon": ""
-          }
-        },
-        "0f0e1f7c-788c-46c0-9fb4-1ec7ce88da01": {
-          "type": "cat",
-          "settings": {
-            "collection": "frontpage",
-            "icon": ""
-          }
-        },
-        "70189b51-5562-4924-b642-a1deba7741ee": {
-          "type": "cat",
-          "settings": {
-            "collection": "sale",
-            "icon": ""
-          }
-        },
-        "560f5822-3eeb-4070-a2cd-b5738881a4c1": {
-          "type": "cat",
-          "settings": {
-            "collection": "shoes",
-            "icon": ""
-          }
-        },
-        "be9b8b8f-6cac-47ab-b809-a2fe640a75a7": {
-          "type": "cat",
-          "settings": {
-            "collection": "women",
+            "collection": "season-3",
             "icon": ""
           }
         }
       },
       "block_order": [
-        "69bbe0dd-0a50-42e8-986b-0d5e6c5cfa67",
-        "863873b6-012e-4a34-90e3-eead750fa3ce",
-        "fc07bff9-6d08-423c-8802-9a03c34f3a31",
-        "a286cc0b-0c90-4b1a-862c-a1136f283aac",
-        "23c84729-8fcb-488c-9541-00e283af6afe",
-        "5f1d751a-fdac-43d4-ad9d-55da0c297244",
-        "0f0e1f7c-788c-46c0-9fb4-1ec7ce88da01",
-        "70189b51-5562-4924-b642-a1deba7741ee",
-        "560f5822-3eeb-4070-a2cd-b5738881a4c1",
-        "be9b8b8f-6cac-47ab-b809-a2fe640a75a7"
+        "cat_YR4CTM",
+        "cat_Air7EY",
+        "cat_EVcfB7",
+        "cat_3ahGCJ",
+        "cat_nVFYn9"
       ],
       "settings": {
         "show_top_collections": true,
-        "source": "1",
+        "source": "2",
         "menu": "main-menu",
         "sort_collections": "alphabetical_reversed",
         "box_border": "top",
@@ -98,9 +58,9 @@
         "fontf": "inherit",
         "text_cl": "#222222",
         "text_cl_hover": "#56cfe1",
-        "text_fs": 14,
+        "text_fs": 16,
         "text_lh": 45,
-        "text_fw": 400,
+        "text_fw": 500,
         "text_ls": 0,
         "font_italic": false,
         "nav_btn": true,
@@ -198,14 +158,11 @@
         },
         "740319a4-8e19-4c70-b8a9-ada7cf235cbc": {
           "type": "layout",
-          "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "30594d23-d644-4653-9545-9ff769d2e6ab": {
           "type": "sortby",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -223,8 +180,8 @@
         "image_size": "cover",
         "image_position": "7",
         "content_align": "default",
-        "limit": 30,
-        "enable_listing": false,
+        "limit": 50,
+        "enable_listing": true,
         "enable_listing_default": false,
         "col_dk": "3",
         "col_tb": "2",
@@ -300,8 +257,7 @@
         },
         "221aa22f-5c6c-40c9-9403-6d3cd2c23e93": {
           "type": "filter",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [

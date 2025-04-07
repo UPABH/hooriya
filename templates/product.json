@@ -67,15 +67,11 @@
             "btn_txt2": "3",
             "button_color_payment": "dark",
             "show_gift_card_recipient": true,
-            "product_list": [
-
-            ],
+            "product_list": [],
             "show_product_current": true,
             "qty_val": "0",
             "advance_label": "Choose style",
-            "advance_pr_list": [
-
-            ]
+            "advance_pr_list": []
           }
         },
         "23551ebc-3be1-40d6-81b2-30f03478cccb": {
@@ -98,6 +94,7 @@
             "pos_sizeg": "1",
             "sc_type": "1",
             "page": "size-chart",
+            "image": "shopify:\/\/shop_images\/1_a4caa6fb-39de-4c9d-a198-bedaf6864828.jpg",
             "size_ck": "",
             "delivery": true,
             "page_dr": "delivery-return",
@@ -234,9 +231,7 @@
         "tabs_layout_fix": "full",
         "bg": "#f6f6f8",
         "bg_mb": "#ffffff",
-        "product_list": [
-
-        ],
+        "product_list": [],
         "sticky_mode": "2",
         "sticky_show": "2",
         "sticky_layout_mb": "minimal",

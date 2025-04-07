@@ -161,8 +161,8 @@
     }
   },
   "list_collections": {
-    "meta_title":"Collection List Page",
-    "meta_description":"The collection list page, which lists all the store's collections.",
+    "meta_title": "Collection List Page",
+    "meta_description": "The collection list page, which lists all the store's collections.",
     "pagination": {
       "load_more": "Load More",
       "load_prev": "Load Previous",
@@ -176,8 +176,7 @@
       "sort_button": "Sort",
       "filter_button": "Filter"
     },
-    "filter": {
-    },
+    "filter": {},
     "pagination": {
       "view_all": "View All",
       "load_more": "Load More",
@@ -483,8 +482,7 @@
       "link_conditions_html": "I agree with the <a href=\"{{ link }}\" class=\"t4s-text__link\">terms and conditions<\/a>.",
       "link_conditions_emty": "I agree with the terms and conditions."
     },
-    "footer": {
-    }
+    "footer": {}
   },
   "customer": {
     "form": {
