@@ -97,8 +97,8 @@
           "type": "accor_item",
           "settings": {
             "icon": "none",
-            "title": "Tab 01",
-            "content": "<p>We love to hear from you on our customer service, merchandise, website or any topics you want to share with us. Your comments and suggestions will be appreciated. Please complete the form below.</p>"
+            "title": "My Account",
+            "content": "<h3>1. <strong>Is an account necessary to place an order?</strong></h3><p>No, you can check out as a guest. However, creating a <strong>Hooria account</strong> offers added convenience and enhances your <strong>Hooria by Dar</strong> shopping experience:</p><h3>2. <strong>How do I create an account?</strong></h3><p>Creating your<strong> Hooria Online Account</strong> is quick and simple:</p><p>Click the <strong>Account icon</strong> in the top right corner, then select <strong>\"Create Your Account\"</strong>. Fill in your details and register.<br/></p><p>Tap the menu, then the <strong>Account icon</strong>, enter your details, and register.</p><h3>3. <strong>What if I forget my password?</strong></h3><p>No worries! Just click <strong>“Forgot your password?”</strong> in the Account section. Enter your registered email address and you’ll receive a link to reset your password. Then simply log in with your new password.</p><h3>4. <strong>How can I update or edit my shipping and billing address?</strong></h3><p>Sign in to your account and go to the <strong>“Addresses”</strong> section:</p><p><br/>“Edit” to update an existing address.<br/></p><p><br/>“Delete” to remove an address.<br/></p><p><br/>“Add a New Address” to save a new one.<br/></p><h3>5. <strong>Where can I view my order history?</strong></h3><p>Log into your account and go to your <strong>Dashboard</strong>. There, you can view all your past orders and stay updated on your latest purchases from <strong>Hooria by SAPPHIRE</strong>.</p>"
           }
         },
         "accor_item_VYUCcU": {
@@ -131,12 +131,12 @@
         "top_subheading": "",
         "tophead_mb": 30,
         "accor_des": "1",
-        "title_cl": "#222",
+        "title_cl": "#222222",
         "bg_title_cl": "#f6f6f8",
-        "title_active_cl": "#000",
+        "title_active_cl": "#000000",
         "bg_title_active_cl": "#f6f6f8",
         "content_cl": "#878787",
-        "bg_content_cl": "#fff",
+        "bg_content_cl": "#ffffff",
         "content_align": "t4s-text-start",
         "auto_active": true,
         "layout": "t4s-container-wrap",
