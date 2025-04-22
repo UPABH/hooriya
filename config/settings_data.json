@@ -267,6 +267,13 @@
               "padding_inner_mb": ""
             }
           },
+          "cus_menu_aET8PV": {
+            "type": "cus_menu",
+            "settings": {
+              "menu": "",
+              "menu_style": "1"
+            }
+          },
           "footer-10": {
             "type": "bl_col",
             "settings": {
@@ -373,6 +380,7 @@
           "custom_text_z6miYf",
           "custom_text_BxfHrM",
           "footer-6",
+          "cus_menu_aET8PV",
           "footer-10",
           "a004c92e-e68e-4ca5-80c4-9679c5a4d40e",
           "ab52a915-62da-4afe-b0eb-91e0b4ebcf0b",
