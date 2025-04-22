@@ -900,6 +900,58 @@
               "icon": ""
             }
           },
+          "menu_7ijJVN": {
+            "type": "menu",
+            "settings": {
+              "title": "Best Sellers",
+              "url": "shopify://collections/best-sellers",
+              "open_link": "_self",
+              "menu": "",
+              "lb": "",
+              "lb_cl": "",
+              "icons_op": "2",
+              "icon": "las la-chair"
+            }
+          },
+          "menu_cH99D3": {
+            "type": "menu",
+            "settings": {
+              "title": "Season 1",
+              "url": "shopify://collections/season-1",
+              "open_link": "_self",
+              "menu": "",
+              "lb": "",
+              "lb_cl": "",
+              "icons_op": "2",
+              "icon": "las la-chair"
+            }
+          },
+          "menu_rWtfAM": {
+            "type": "menu",
+            "settings": {
+              "title": "Season 2",
+              "url": "shopify://collections/season-2",
+              "open_link": "_self",
+              "menu": "",
+              "lb": "",
+              "lb_cl": "",
+              "icons_op": "2",
+              "icon": "las la-chair"
+            }
+          },
+          "menu_HgTNba": {
+            "type": "menu",
+            "settings": {
+              "title": "Season 3",
+              "url": "shopify://collections/season-3",
+              "open_link": "_self",
+              "menu": "",
+              "lb": "",
+              "lb_cl": "",
+              "icons_op": "2",
+              "icon": "las la-chair"
+            }
+          },
           "mb_nav-3": {
             "type": "menu",
             "settings": {
@@ -933,6 +985,10 @@
         },
         "block_order": [
           "mb_nav-1",
+          "menu_7ijJVN",
+          "menu_cH99D3",
+          "menu_rWtfAM",
+          "menu_HgTNba",
           "mb_nav-3",
           "mb_nav-6",
           "mb_nav-7",
