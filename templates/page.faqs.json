@@ -114,14 +114,32 @@
           "settings": {
             "icon": "none",
             "title": "Payments",
-            "content": "<h3><strong>1. What payment options are available?</strong></h3><p><br/>Cash on Delivery (COD)<br/>Debit/Credit Cards (Visa, MasterCard)</p><h3><strong>2. Do I need to pay in advance for COD?</strong></h3><p>No, pay the full amount in cash upon delivery. For high-value orders, we may call to confirm before dispatch.</p><h3><strong>3. Can I pay COD using a cheque?</strong></h3><p>No, only <strong>cash</strong> is accepted for COD orders.</p><h3><strong>4. Is card payment safe?</strong></h3><p>Yes, all transactions are processed on a <strong>secure, encrypted platform</strong>.</p><h3><strong>5. What if my payment fails?</strong></h3><p>Check your payment info. If your account was charged, the bank usually refunds within <strong>7 business days</strong>. For help, email <a><strong>hooriabydar@gmail.com</strong></a> or call <strong>0321-7777678</strong>.</p><h3><strong>6. Can Billing and Shipping addresses be different?</strong></h3><p><br/> Only shipping address is needed.<br/> Both addresses are required and can be different.<br/></p><h3><strong>7. Will I get a refund if I cancel or return my order?</strong></h3><p>If canceled within 24 hours (before dispatch), you’ll receive a <strong>coupon voucher</strong>. If the item is unavailable, a <strong>refund</strong> will be processed within <strong>15 working days</strong>.</p><h3><strong>8. How do I use a coupon or gift card?</strong></h3><p>Enter the code at checkout. If your total exceeds the coupon value, pay the difference via COD or card.<br/><br/><em>Note: Coupons are subject to terms, product/category restrictions, and must be used with the registered email.</em></p>"
+            "content": "<h3><strong>1. What payment options are available?</strong></h3><p>Cash on Delivery (COD)<br/>Debit/Credit Cards (Visa, MasterCard)</p><h3><strong>2. Do I need to pay in advance for COD?</strong></h3><p>No, pay the full amount in cash upon delivery. For high-value orders, we may call to confirm before dispatch.</p><h3><strong>3. Can I pay COD using a cheque?</strong></h3><p>No, only <strong>cash</strong> is accepted for COD orders.</p><h3><strong>4. Is card payment safe?</strong></h3><p>Yes, all transactions are processed on a <strong>secure, encrypted platform</strong>.</p><h3><strong>5. What if my payment fails?</strong></h3><p>Check your payment info. If your account was charged, the bank usually refunds within <strong>7 business days</strong>. For help, email <a><strong>hooriabydar@gmail.com</strong></a> or call <strong>0321-7777678</strong>.</p><h3><strong>6. Can Billing and Shipping addresses be different?</strong></h3><p>Only shipping address is needed.<br/> Both addresses are required and can be different.<br/></p><h3><strong>7. Will I get a refund if I cancel or return my order?</strong></h3><p>If canceled within 24 hours (before dispatch), you’ll receive a <strong>coupon voucher</strong>. If the item is unavailable, a <strong>refund</strong> will be processed within <strong>15 working days</strong>.</p><h3><strong>8. How do I use a coupon or gift card?</strong></h3><p>Enter the code at checkout. If your total exceeds the coupon value, pay the difference via COD or card.<br/><br/><em>Note: Coupons are subject to terms, product/category restrictions, and must be used with the registered email.</em></p>"
+          }
+        },
+        "accor_item_gAhnGY": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Delivery",
+            "content": "<h3><strong>1. What is the delivery time?</strong></h3><p> 5–7 working days<br/> Up to 15 working days<br/>Orders are processed within 24 hours. Delivery depends on item availability and payment confirmation. Orders may arrive in multiple packages.</p><h3><strong>2. Are shipping charges included in the order total?</strong></h3><p>Shipping charges are shown separately at checkout.</p><h3><strong>3. How do I track my order?</strong></h3><p>You’ll receive a <strong>Tracking ID via email</strong>. Use it on the courier’s website or the “Track Your Order” section on our site.</p><h3><strong>4. What if I miss the delivery?</strong></h3><p>The courier will try <strong>twice</strong>. If undelivered, the order is returned. Please give an accurate address.</p>"
+          }
+        },
+        "accor_item_BARbUc": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "none",
+            "title": "Exchanges",
+            "content": "<h3><strong>1. Can I exchange my order?</strong></h3><p>Yes, you can exchange any item (except <strong>Sale items</strong>) within <strong>30 days</strong> of delivery, provided it's <strong>unused</strong>, has <strong>all tags intact</strong>, and is accompanied by the <strong>original invoice</strong>. Exchange can be done <strong>online</strong> or at any of our <strong>stores</strong>.</p><h3><strong>2. Are there any additional charges on exchange?</strong></h3><p>No, exchanges are free of charge.</p><h3><strong>3. How long does the exchange process take?</strong></h3><p><strong>Online exchanges</strong> take <strong>7–10 days</strong>. You can also exchange items at our <strong>outlets</strong> with your order confirmation and invoice.</p><h3><strong>4. Which items are not exchangeable?</strong></h3><p><strong>Sale/discounted items</strong> are not eligible for exchange.</p>"
           }
         }
       },
       "block_order": [
         "accor_item_3iL4mN",
         "accor_item_VYUCcU",
-        "accor_item_CqNaGF"
+        "accor_item_CqNaGF",
+        "accor_item_gAhnGY",
+        "accor_item_BARbUc"
       ],
       "settings": {
         "design_heading": "1",
