@@ -270,7 +270,7 @@
           "cus_menu_aET8PV": {
             "type": "cus_menu",
             "settings": {
-              "menu": "",
+              "menu": "customer-care",
               "menu_style": "1"
             }
           },
