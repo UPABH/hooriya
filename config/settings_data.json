@@ -59,6 +59,7 @@
     "show_qty": false,
     "pr_border_style": "1",
     "swatch_item_style": "2",
+    "show_img": "1",
     "pr_img_effect": "2",
     "enable_shadow_round_img": true,
     "gift_wrap_pr": "gift-wrap",
@@ -1448,6 +1449,10 @@
       },
       "extras": {
         "type": "extras",
+        "settings": {}
+      },
+      "facets_tags": {
+        "type": "facets_tags",
         "settings": {}
       }
     },
