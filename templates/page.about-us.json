@@ -260,6 +260,7 @@
         "2a09a4c8-b8db-4637-b944-87d5e190d9b2",
         "dbb9472b-71cc-423e-87c4-f311cfcf2f6a"
       ],
+      "disabled": true,
       "settings": {
         "space_h_item": "30",
         "space_v_item": "30",
@@ -410,6 +411,7 @@
         "2a09a4c8-b8db-4637-b944-87d5e190d9b2",
         "dbb9472b-71cc-423e-87c4-f311cfcf2f6a"
       ],
+      "disabled": true,
       "settings": {
         "space_h_item": "30",
         "space_v_item": "30",
@@ -430,6 +432,7 @@
     },
     "1652061697dd10b7fc": {
       "type": "quote",
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
@@ -499,6 +502,7 @@
         "165206094067bbb516-1",
         "165206094067bbb516-2"
       ],
+      "disabled": true,
       "settings": {
         "design_heading": "1",
         "heading_align": "t4s-text-center",
