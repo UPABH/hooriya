@@ -903,7 +903,7 @@
             "type": "menu",
             "settings": {
               "title": "Sale",
-              "url": "shopify://collections/sale",
+              "url": "shopify://collections/best-sellers",
               "open_link": "_self",
               "menu": "",
               "lb": "",
