@@ -34,7 +34,7 @@
                     {%- if se_stts.source == '2' and se_stts.video != blank -%}
                         <video controls playsinline="playsinline" preload="metadata" aria-label="{{ se_stts.video.alt }}" poster="{{ image | default: se_stts.video.preview_image.src | image_url: width: se_stts.video.preview_image.width }}" muted {% if autoplay %} autoplay{% endif %}{% if loop %} loop{% endif %}>
                             {%- for media in se_stts.video.sources -%}
-                                <source src="{{ media.url }}" type="{{ media.mime_type }}">
+                                <source src="{{ media.url }}" type="{{ media.mime_type }}" autoplay muted>
                             {%- endfor -%}
                             <img src="{{ mb_image | default: se_stts.video.preview_image.src | image_url: width: 100 }}">
                         </video>

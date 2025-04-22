@@ -974,6 +974,22 @@ endif -%}
   }
 }
 </script>
+
+<script>
+  const interval = setInterval(() => {
+    let a = document.querySelector('[data-product-single-media-wrapper] .plyr__control');
+    
+    console.log("a", a);
+  
+    if (a !== null) {
+      clearInterval(interval);
+      console.log("Element found. Interval stopped.");
+      // Optional: you can trigger a click or any other action here
+      a.click();
+    }
+  }, 100); // Check every 100 milliseconds
+  
+</script>
   
 {%- schema -%}
 {
