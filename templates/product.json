@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "breadcrumb": {
@@ -74,27 +83,14 @@
             "advance_pr_list": []
           }
         },
-        "23551ebc-3be1-40d6-81b2-30f03478cccb": {
-          "type": "img",
-          "disabled": true,
-          "settings": {
-            "al": "start",
-            "mess": "",
-            "size": 16,
-            "source": "1",
-            "wimg": 70,
-            "svg": "amazon_payments,american_express,apple_pay,bitcoin,dankort,diners_club,discover,dogecoin,dwolla,forbrugsforeningen,interac,google_pay,jcb,klarna,klarna-pay-later,litecoin,maestro,master,paypal,shopify_pay,sofort,visa",
-            "height": 11
-          }
-        },
         "size_delivery_ask": {
           "type": "size_delivery_ask",
           "settings": {
             "size_chart": "3",
             "pos_sizeg": "1",
-            "sc_type": "1",
+            "sc_type": "2",
             "page": "size-chart",
-            "image": "shopify:\/\/shop_images\/1_a4caa6fb-39de-4c9d-a198-bedaf6864828.jpg",
+            "image": "shopify://shop_images/1_a4caa6fb-39de-4c9d-a198-bedaf6864828.jpg",
             "size_ck": "",
             "delivery": true,
             "page_dr": "delivery-return",
@@ -121,17 +117,18 @@
             "title": "Description"
           }
         },
-        "e36839f5-0847-44e2-97d3-2885597bd1ff": {
-          "type": "tab_add",
+        "tab_liquid_mBkqnY": {
+          "type": "tab_liquid",
           "settings": {
-            "title": "Additional Information"
+            "title": "Tab Custom Liquid",
+            "custom_liquid": ""
           }
         },
         "754ad4a0-7308-4a3e-b325-e2f2c0b85d4c": {
           "type": "tab_html",
           "settings": {
-            "title": "Custom tab",
-            "content": "",
+            "title": "Size Chart",
+            "content": "<p>&lt;img src=\"https://cdn.shopify.com/s/files/1/0689/4610/0450/files/1_a4caa6fb-39de-4c9d-a198-bedaf6864828.jpg?v=1742768315\"/&gt;</p>",
             "page": "wash-care"
           }
         },
@@ -183,11 +180,10 @@
         "title",
         "price_review",
         "form",
-        "23551ebc-3be1-40d6-81b2-30f03478cccb",
         "size_delivery_ask",
         "meta",
         "95d4f334-8ea7-4cd2-b609-2373b1e848b8",
-        "e36839f5-0847-44e2-97d3-2885597bd1ff",
+        "tab_liquid_mBkqnY",
         "754ad4a0-7308-4a3e-b325-e2f2c0b85d4c",
         "56e67368-7424-4d73-8f14-dacdda4c59be",
         "description",
@@ -281,7 +277,7 @@
           "settings": {
             "title": "Shipping & Delivery",
             "shipping_1": "las la-truck,FREE SHIPPING,Free shipping for all US order",
-            "shipping_2": "las la-headset,SUPPORT 24\/7,We support 24 hours a day",
+            "shipping_2": "las la-headset,SUPPORT 24/7,We support 24 hours a day",
             "shipping_3": "las la-exchange-alt,30 DAYS RETURN,You have 30 days to return",
             "shipping_4": "",
             "shipping_5": "",
@@ -294,7 +290,7 @@
             "b_link": "",
             "open_link": "_self",
             "img_effect": "none",
-            "date": "2022\/12\/26",
+            "date": "2022/12/26",
             "content_align": "center",
             "cdt_des": "2",
             "countdown_pos": "2",
