@@ -117,19 +117,12 @@
             "title": "Description"
           }
         },
-        "tab_liquid_mBkqnY": {
-          "type": "tab_liquid",
-          "settings": {
-            "title": "Tab Custom Liquid",
-            "custom_liquid": ""
-          }
-        },
-        "754ad4a0-7308-4a3e-b325-e2f2c0b85d4c": {
+        "tab_html_498YLh": {
           "type": "tab_html",
           "settings": {
             "title": "Size Chart",
             "content": "<p>&lt;img src=\"https://cdn.shopify.com/s/files/1/0689/4610/0450/files/1_a4caa6fb-39de-4c9d-a198-bedaf6864828.jpg?v=1742768315\"/&gt;</p>",
-            "page": "wash-care"
+            "page": ""
           }
         },
         "56e67368-7424-4d73-8f14-dacdda4c59be": {
@@ -183,8 +176,7 @@
         "size_delivery_ask",
         "meta",
         "95d4f334-8ea7-4cd2-b609-2373b1e848b8",
-        "tab_liquid_mBkqnY",
-        "754ad4a0-7308-4a3e-b325-e2f2c0b85d4c",
+        "tab_html_498YLh",
         "56e67368-7424-4d73-8f14-dacdda4c59be",
         "description",
         "94011ade-ec25-4d68-b37a-70660ede49dd",
