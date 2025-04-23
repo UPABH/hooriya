@@ -98,6 +98,12 @@
             "phone": true
           }
         },
+        "text_qeDHN3": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Shirt Fabric:</strong> {{ product.metafields.custom.shirt_fabrics.value }}<br/><strong>Dupatta Fabric: </strong>{{ product.metafields.custom.dupatta_fabric.value }}<br/><strong>Bottom Fabric</strong>: {{ product.metafields.custom.trouser_fabric.value }}<br/><strong>Shirt Style:  </strong>{{ product.metafields.custom.shirt_style.value }}<br/><strong>Dupatta Style:</strong> {{ product.metafields.custom.dupatta_style.value }}<br/><strong>Trouser Style: </strong>{{ product.metafields.custom.trouser_style.value }}<br/><strong>Sleeves: </strong>{{ product.metafields.custom.sleeves_.value }}<br/><strong>Neck Style: </strong>{{ product.metafields.custom.neck_style.value }}<br/><strong>No. of Pieces:</strong> {{ product.metafields.custom.number_of_pieces.value }}<br/><strong>Work Technique:</strong> {{ product.metafields.custom.work_technique.value }}</p>"
+          }
+        },
         "meta": {
           "type": "meta",
           "settings": {
@@ -165,6 +171,7 @@
         "price_review",
         "form",
         "size_delivery_ask",
+        "text_qeDHN3",
         "meta",
         "95d4f334-8ea7-4cd2-b609-2373b1e848b8",
         "tab_liquid_9BiYbF",
