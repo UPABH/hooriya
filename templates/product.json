@@ -117,12 +117,11 @@
             "title": "Description"
           }
         },
-        "tab_html_498YLh": {
-          "type": "tab_html",
+        "tab_liquid_9BiYbF": {
+          "type": "tab_liquid",
           "settings": {
             "title": "Size Chart",
-            "content": "<p>&lt;img src=\"https://cdn.shopify.com/s/files/1/0689/4610/0450/files/1_a4caa6fb-39de-4c9d-a198-bedaf6864828.jpg?v=1742768315\"/&gt;</p>",
-            "page": ""
+            "custom_liquid": "<img src=\"https://cdn.shopify.com/s/files/1/0689/4610/0450/files/1_a4caa6fb-39de-4c9d-a198-bedaf6864828.jpg?v=1742768315\"/>"
           }
         },
         "56e67368-7424-4d73-8f14-dacdda4c59be": {
@@ -159,14 +158,6 @@
             "space_h_item_mb": "20",
             "space_v_item_mb": "4"
           }
-        },
-        "bded529b-9b8f-4d5c-8f04-5de0b22e627d": {
-          "type": "tab_html",
-          "settings": {
-            "title": "Collapsible tab",
-            "content": "",
-            "page": ""
-          }
         }
       },
       "block_order": [
@@ -176,11 +167,10 @@
         "size_delivery_ask",
         "meta",
         "95d4f334-8ea7-4cd2-b609-2373b1e848b8",
-        "tab_html_498YLh",
+        "tab_liquid_9BiYbF",
         "56e67368-7424-4d73-8f14-dacdda4c59be",
         "description",
-        "94011ade-ec25-4d68-b37a-70660ede49dd",
-        "bded529b-9b8f-4d5c-8f04-5de0b22e627d"
+        "94011ade-ec25-4d68-b37a-70660ede49dd"
       ],
       "settings": {
         "pr_layout": "default",
