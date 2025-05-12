@@ -924,6 +924,7 @@
           },
           "cat_mEzXjR": {
             "type": "cat",
+            "disabled": true,
             "settings": {
               "collection": "season-3",
               "collection_title": "Season 3",
