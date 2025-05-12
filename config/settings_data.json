@@ -955,13 +955,13 @@
             "settings": {
               "collection": "eid-collection-2025",
               "collection_title": "BARI EID 2025",
-              "collection_subtitle": "Products",
+              "collection_subtitle": "",
               "image": "shopify://shop_images/Untitled_design.png",
-              "collection_des": "1",
-              "title_cl": "#ffffff",
+              "collection_des": "12",
+              "title_cl": "#000000",
               "title_cl_hover": "#222222",
               "subtitle_cl": "#878787",
-              "count_cl": "#222222",
+              "count_cl": "#ec0101",
               "border_cl": "#e5e5e5",
               "open_link": "_self",
               "space_bottom": 20,
@@ -971,11 +971,11 @@
               "item_rd": 0,
               "img_effect": "none",
               "b_effect": "none",
-              "image_ratio": "ratio1_1",
+              "image_ratio": "ratioadapt",
               "image_size": "cover",
               "image_position": "8",
               "collection_link": "",
-              "col": "4"
+              "col": "3"
             }
           }
         },
