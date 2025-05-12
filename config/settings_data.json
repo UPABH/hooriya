@@ -863,7 +863,7 @@
               "image_size": "cover",
               "image_position": "8",
               "collection_link": "",
-              "col": "3"
+              "col": "1"
             }
           },
           "cat_h6KUCU": {
@@ -891,7 +891,7 @@
               "image_size": "cover",
               "image_position": "8",
               "collection_link": "",
-              "col": "3"
+              "col": "2"
             }
           },
           "cat_yCBabF": {
@@ -919,12 +919,11 @@
               "image_size": "cover",
               "image_position": "8",
               "collection_link": "",
-              "col": "3"
+              "col": "2"
             }
           },
           "cat_mEzXjR": {
             "type": "cat",
-            "disabled": true,
             "settings": {
               "collection": "season-3",
               "collection_title": "Season 3",
@@ -948,7 +947,7 @@
               "image_size": "cover",
               "image_position": "8",
               "collection_link": "",
-              "col": "3"
+              "col": "2"
             }
           },
           "cat_JHXXgd": {
@@ -976,7 +975,7 @@
               "image_size": "cover",
               "image_position": "8",
               "collection_link": "",
-              "col": "3"
+              "col": "2"
             }
           }
         },
