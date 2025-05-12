@@ -189,7 +189,7 @@
               "remove_br_tag": false,
               "tag": "h6",
               "fontf": "inherit",
-              "text_cl": "#222",
+              "text_cl": "#222222",
               "text_fs": 14,
               "text_lh": 50,
               "text_fw": 400,
@@ -211,7 +211,7 @@
               "remove_br_tag": false,
               "tag": "p",
               "fontf": "inherit",
-              "text_cl": "#222",
+              "text_cl": "#222222",
               "text_fs": 14,
               "text_lh": 50,
               "text_fw": 400,
@@ -233,7 +233,7 @@
               "remove_br_tag": false,
               "tag": "p",
               "fontf": "inherit",
-              "text_cl": "#222",
+              "text_cl": "#222222",
               "text_fs": 14,
               "text_lh": 50,
               "text_fw": 400,
@@ -949,6 +949,33 @@
               "collection_link": "",
               "col": "3"
             }
+          },
+          "cat_JHXXgd": {
+            "type": "cat",
+            "settings": {
+              "collection": "eid-collection-2025",
+              "collection_title": "BARI EID 2025",
+              "collection_subtitle": "Products",
+              "collection_des": "1",
+              "title_cl": "#ffffff",
+              "title_cl_hover": "#222222",
+              "subtitle_cl": "#878787",
+              "count_cl": "#222222",
+              "border_cl": "#e5e5e5",
+              "open_link": "_self",
+              "space_bottom": 20,
+              "space_bottom_mb": 10,
+              "border": false,
+              "item_pd": 0,
+              "item_rd": 0,
+              "img_effect": "none",
+              "b_effect": "none",
+              "image_ratio": "ratio1_1",
+              "image_size": "cover",
+              "image_position": "8",
+              "collection_link": "",
+              "col": "4"
+            }
           }
         },
         "block_order": [
@@ -956,7 +983,8 @@
           "cat_bPX4N7",
           "cat_h6KUCU",
           "cat_yCBabF",
-          "cat_mEzXjR"
+          "cat_mEzXjR",
+          "cat_JHXXgd"
         ],
         "settings": {
           "bg": ""
