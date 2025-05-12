@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "top": {
@@ -37,6 +46,13 @@
             "collection": "season-3",
             "icon": ""
           }
+        },
+        "cat_VH7HLB": {
+          "type": "cat",
+          "settings": {
+            "collection": "eid-collection-2025",
+            "icon": ""
+          }
         }
       },
       "block_order": [
@@ -44,7 +60,8 @@
         "cat_Air7EY",
         "cat_EVcfB7",
         "cat_3ahGCJ",
-        "cat_nVFYn9"
+        "cat_nVFYn9",
+        "cat_VH7HLB"
       ],
       "settings": {
         "show_top_collections": true,
@@ -242,7 +259,7 @@
             "b_link": "",
             "open_link": "_self",
             "content_align": "center",
-            "date": "2023\/12\/26",
+            "date": "2023/12/26",
             "cdt_des": "1",
             "countdown_pos": "2",
             "cdt_size": "small",
