@@ -1059,6 +1059,19 @@
               "icon": ""
             }
           },
+          "menu_yFRF7N": {
+            "type": "menu",
+            "settings": {
+              "title": "Eid 2025",
+              "url": "shopify://collections/eid-collection-2025",
+              "open_link": "_self",
+              "menu": "",
+              "lb": "",
+              "lb_cl": "",
+              "icons_op": "2",
+              "icon": ""
+            }
+          },
           "mb_nav-3": {
             "type": "menu",
             "settings": {
@@ -1096,6 +1109,7 @@
           "menu_cH99D3",
           "menu_rWtfAM",
           "menu_HgTNba",
+          "menu_yFRF7N",
           "mb_nav-3",
           "mb_nav-6",
           "mb_nav-7",
